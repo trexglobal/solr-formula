@@ -22,7 +22,7 @@ tomcat6:
     - source: {{ pillar['solr']['catalina_properties_file'] }}
     - user: tomcat6
     - group: tomcat6
-    - mode: 444
+    - mode: 664
 
 '/usr/share/solr/conf/data-config.xml':
   file.managed:
@@ -50,4 +50,4 @@ tomcat6:
   file.managed:
     - user: tomcat6
     - group: tomcat6
-    - mode: 444
+    - mode: 664
