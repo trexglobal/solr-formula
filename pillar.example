@@ -1,0 +1,5 @@
+solr:
+  catalina_properties_file: 'salt://app/files/solr/catalina.properties'
+  data_config_xml_file: 'salt://app/files/solr/data-config.xml'
+  schema_xml_file: 'salt://app/files/solr/schema.xml'
+  solrconfig_xml_file: 'salt://app/files/solr/solrconfig.xml'
